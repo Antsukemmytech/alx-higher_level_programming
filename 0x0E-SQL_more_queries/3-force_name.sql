@@ -1,3 +1,3 @@
 -- This script create a table 
-CREATE TABLE force_name (id INT, name VARCHAR(256) NOT NULL);
+CREATE TABLE IF NOT EXITS force_name (id INT, name VARCHAR(256) NOT NULL);
 
